@@ -1,0 +1,53 @@
+h1 {
+    color: rgb(25, 182, 230);
+}
+
+.oooo {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(103, 233, 17);
+}
+
+
+nav {
+    position: sticky;
+    top: 20px;
+    left: 10px;
+}
+
+#cards>section>table td {
+    text-align: center;
+}
+
+#cards>section>table tr:first-child>td:first-child {
+    color: deeppink;
+}
+
+#cards>section>table{
+    margin: auto;
+}
+
+#cards>section>h4{ text-align: center
+}
+
+#link{
+    text-align: center;
+}
+
+input:not(:checked)~label{
+    text-align: center;
+    font-weight: bold;
+}
+
+input~label{ 
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
+input:checked~table{
+    display: none;
+}
+input{
+    display: none;
+}
